@@ -1,11 +1,11 @@
-﻿﻿Console.WriteLine("Введи число: ");
+﻿Console.WriteLine("Введи число: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-int start = 0;
+int even = 0;
 
 while (count < N)
 {
-    start = start+1;
-    if (start % 2 == 0) Console.Write(start + ", ");
+    even = even + 1;
+    if (even % 2 == 0) Console.Write(even + ", ");
     count++;
 }
